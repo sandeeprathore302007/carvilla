@@ -11,7 +11,7 @@ namespace CarVilla_Ecommerce_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label2.Text = Session["userN"].ToString();
         }
     }
 }

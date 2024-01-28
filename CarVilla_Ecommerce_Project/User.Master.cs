@@ -11,7 +11,19 @@ namespace CarVilla_Ecommerce_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["userN"] == null)
+            {
+                Response.Redirect("login.aspx");
+            }
             Label1.Text = Session["userN"].ToString();
+
+            
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("login.aspx");
         }
     }
 }

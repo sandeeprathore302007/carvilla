@@ -21,7 +21,7 @@ namespace CarVilla_Ecommerce_Project
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
-            string email, password;
+            string email, password, username; 
 
             email = TextBox1.Text;
             password = TextBox2.Text;

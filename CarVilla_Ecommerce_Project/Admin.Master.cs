@@ -13,5 +13,11 @@ namespace CarVilla_Ecommerce_Project
         {
             Label2.Text = Session["userN"].ToString();
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("login.aspx");
+        }
     }
 }

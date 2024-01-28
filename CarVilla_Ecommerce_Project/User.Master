@@ -53,9 +53,30 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+ <style>
+		#Button1{
+
+		 background-color : transparent;
+		 border : none ;
+		color : aliceblue;
+		  margin-top : 46px ;
+		  
+
+
+
+	}
+ </style>
 <html>
 <head runat="server">
     <title></title>
+	 
+	<script type="text/javascript">
+        history.pushState(null, null, document.URL);
+        window.addEventListener('popstate', function () {
+            history.pushState(null, null, document.URL);
+        });
+    </script>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -96,7 +117,8 @@
 				                    <li class="scroll"><a href="#featured-cars">featured cars</a></li>
 				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
 				                    <li class="scroll"><a href="#new-cars">Hello <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></a> </li>
-				                    <li class="scroll"><a href="#contact">contact</a></li>
+				                    <li class="scroll">
+										<asp:Button ID="Button1"  runat="server" Text="LOGOUT" OnClick="Button1_Click" /></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->

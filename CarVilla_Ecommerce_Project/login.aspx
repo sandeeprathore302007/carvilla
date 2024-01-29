@@ -143,7 +143,7 @@ margin-left: 4px;
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="#">Register</a>
+					Don't have an account?<a href="Registration.aspx">Register</a>
 				</div>
 				
 			</div>

@@ -91,17 +91,46 @@
     <Content Include="assets\images\clients\c1.png" />
     <Content Include="assets\images\clients\c2.png" />
     <Content Include="assets\images\clients\c3.png" />
+    <Content Include="assets\images\featured-cars\BMW_I8.jpg" />
     <Content Include="assets\images\featured-cars\fc1.png" />
+    <Content Include="assets\images\featured-cars\fc10.png" />
+    <Content Include="assets\images\featured-cars\fc11.png" />
+    <Content Include="assets\images\featured-cars\fc12.png" />
+    <Content Include="assets\images\featured-cars\fc13.png" />
+    <Content Include="assets\images\featured-cars\fc14.png" />
+    <Content Include="assets\images\featured-cars\fc15.png" />
+    <Content Include="assets\images\featured-cars\fc16.png" />
+    <Content Include="assets\images\featured-cars\fc17.png" />
+    <Content Include="assets\images\featured-cars\fc18.png" />
+    <Content Include="assets\images\featured-cars\fc19.png" />
     <Content Include="assets\images\featured-cars\fc2.png" />
+    <Content Include="assets\images\featured-cars\fc20.png" />
+    <Content Include="assets\images\featured-cars\fc21.png" />
+    <Content Include="assets\images\featured-cars\fc22.png" />
+    <Content Include="assets\images\featured-cars\fc23.png" />
+    <Content Include="assets\images\featured-cars\fc24.png" />
+    <Content Include="assets\images\featured-cars\fc25.png" />
+    <Content Include="assets\images\featured-cars\fc26.png" />
+    <Content Include="assets\images\featured-cars\fc27.png" />
+    <Content Include="assets\images\featured-cars\fc28.png" />
+    <Content Include="assets\images\featured-cars\fc29.png" />
     <Content Include="assets\images\featured-cars\fc3.png" />
+    <Content Include="assets\images\featured-cars\fc30.png" />
+    <Content Include="assets\images\featured-cars\fc31.png" />
+    <Content Include="assets\images\featured-cars\fc32.png" />
     <Content Include="assets\images\featured-cars\fc4.png" />
     <Content Include="assets\images\featured-cars\fc5.png" />
     <Content Include="assets\images\featured-cars\fc6.png" />
     <Content Include="assets\images\featured-cars\fc7.png" />
     <Content Include="assets\images\featured-cars\fc8.png" />
+    <Content Include="assets\images\featured-cars\fc9.png" />
+    <Content Include="assets\images\new-cars-model\AutoShopLogo.jpg" />
     <Content Include="assets\images\new-cars-model\ncm1.png" />
     <Content Include="assets\images\new-cars-model\ncm2.png" />
     <Content Include="assets\images\new-cars-model\ncm3.png" />
+    <Content Include="assets\images\new-cars-model\ncm4.png" />
+    <Content Include="assets\images\new-cars-model\ncm5.png" />
+    <Content Include="assets\images\new-cars-model\ncm6.png" />
     <Content Include="assets\images\welcome-hero\welcome-banner.jpg" />
     <Content Include="assets\js\bootsnav.js" />
     <Content Include="assets\js\bootstrap.min.js" />
@@ -113,9 +142,13 @@
     <Content Include="HtmlPage1.html" />
     <Content Include="index.html" />
     <Content Include="login.aspx" />
+    <Content Include="NewCars.aspx" />
+    <Content Include="Payment.aspx" />
     <Content Include="readme.txt" />
     <Content Include="Registration.aspx" />
+    <Content Include="Return.aspx" />
     <Content Include="UserHome.aspx" />
+    <Content Include="ViewCars.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -141,6 +174,20 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="NewCars.aspx.cs">
+      <DependentUpon>NewCars.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewCars.aspx.designer.cs">
+      <DependentUpon>NewCars.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
@@ -148,6 +195,13 @@
     </Compile>
     <Compile Include="Registration.aspx.designer.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Return.aspx.cs">
+      <DependentUpon>Return.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Return.aspx.designer.cs">
+      <DependentUpon>Return.aspx</DependentUpon>
     </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
@@ -163,6 +217,13 @@
     <Compile Include="UserHome.aspx.designer.cs">
       <DependentUpon>UserHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ViewCars.aspx.cs">
+      <DependentUpon>ViewCars.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewCars.aspx.designer.cs">
+      <DependentUpon>ViewCars.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -172,6 +233,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin.Master" />
     <Content Include="assets\fonts\Flaticon.eot" />
     <Content Include="assets\fonts\Flaticon.ttf" />
     <Content Include="assets\fonts\Flaticon.woff" />
@@ -188,7 +250,6 @@
     <Content Include="assets\fonts\Linearicons-Free.ttf" />
     <Content Include="assets\fonts\Linearicons-Free.woff" />
     <Content Include="assets\fonts\Linearicons-Free.woff2" />
-    <Content Include="Admin.Master" />
     <None Include="packages.config" />
     <Content Include="User.Master" />
     <None Include="Web.Debug.config">

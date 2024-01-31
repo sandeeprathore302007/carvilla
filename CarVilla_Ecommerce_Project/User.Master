@@ -113,7 +113,7 @@
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 				                    <li class=" scroll active"><a href="#home">home</a></li>
-				                    <li class="scroll"><a href="NewCars.aspx">New Car</a></li>
+				                    <li class="scroll"><a href="FeaturedCars.aspx">New Car</a></li>
 				                    <li class="scroll"><a href="#featured-cars">featured cars</a></li>
 				                    <li class="scroll"><a href="Registration.aspx">SIGN UP</a></li>
 				                    <li class="scroll"><a href="#new-cars">User <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></a> </li>

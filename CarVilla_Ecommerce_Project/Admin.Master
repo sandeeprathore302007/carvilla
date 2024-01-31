@@ -75,8 +75,11 @@
 </style>
 <html>
 <head runat="server">
-    <title><asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder></title>
+    <title></title>
+	
+	
+	<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
     
 </head>
 <body>
@@ -113,7 +116,8 @@
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 				                    <li class=" scroll active"><a href="#home">home</a></li>
-				                    <li class="scroll"><a href="NewCars.aspx">New Cars</a></li>
+									  <li class="scroll"><a href="AddCars.aspx">Add Cars</a></li>
+				                    <li class="scroll"><a href="GridViewCarAdmin.aspx">New Cars</a></li>
 				                    <li class="scroll"><a href="ViewCars.aspx">featured cars</a></li>
 				                    
 				                    
@@ -139,7 +143,7 @@
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore   magna aliqua. 
 					</p>
-					 <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="login.aspx">Login</asp:HyperLink>>
+					  
 					 
 				</div>
 			</div>

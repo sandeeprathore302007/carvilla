@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddCars.aspx" />
     <Content Include="AdminHome.aspx" />
     <Content Include="assets\css\animate.css" />
     <Content Include="assets\css\bootsnav.css" />
@@ -139,9 +140,13 @@
     <Content Include="assets\js\jquery.js" />
     <Content Include="assets\js\owl.carousel.min.js" />
     <Content Include="assets\logo\favicon.png" />
+    <Content Include="dashboard.aspx" />
+    <Content Include="GridViewCarAdmin.aspx" />
+    <Content Include="FeaturedCars.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="index.html" />
     <Content Include="login.aspx" />
+    <Content Include="Login2.aspx" />
     <Content Include="NewCars.aspx" />
     <Content Include="Payment.aspx" />
     <Content Include="readme.txt" />
@@ -151,8 +156,16 @@
     <Content Include="ViewCars.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WishList.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCars.aspx.cs">
+      <DependentUpon>AddCars.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCars.aspx.designer.cs">
+      <DependentUpon>AddCars.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -167,12 +180,40 @@
     <Compile Include="AdminHome.aspx.designer.cs">
       <DependentUpon>AdminHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GridViewCarAdmin.aspx.cs">
+      <DependentUpon>GridViewCarAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GridViewCarAdmin.aspx.designer.cs">
+      <DependentUpon>GridViewCarAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturedCars.aspx.cs">
+      <DependentUpon>FeaturedCars.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeaturedCars.aspx.designer.cs">
+      <DependentUpon>FeaturedCars.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login2.aspx.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login2.aspx.designer.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
     </Compile>
     <Compile Include="NewCars.aspx.cs">
       <DependentUpon>NewCars.aspx</DependentUpon>
@@ -231,6 +272,13 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WishList.aspx.cs">
+      <DependentUpon>WishList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WishList.aspx.designer.cs">
+      <DependentUpon>WishList.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.Master" />
@@ -258,6 +306,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
